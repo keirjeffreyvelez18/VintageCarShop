@@ -3,7 +3,7 @@ from django.contrib import admin
 from oscar.app import application
 
 urlpatterns = [
-    url(r'^i18n/', include('django.conf.urls.i18n')),
+	    url(r'^i18n/', include('django.conf.urls.i18n')),
 
     # The Django admin is not officially supported; expect breakage.
     # Nonetheless, it's often useful for debugging.
